@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>修改用户信息</title>
+</head>
+<body>
+	<h3>修改用户</h3><hr>
+	<form action="http://localhost:8080/update/1" method="post">
+		<input type="hidden" name="_method" value="put"/>
+		名字：<input type="text" name="name"/><br>
+		年龄：<input type="text" name="age"/><br>
+		地址：<input type="text" name="address"/><br>
+		生日：<input type="text" name="birthday"/><br>
+		<input type="submit" value = "修改">
+	</form>
+</body>
+</html>
